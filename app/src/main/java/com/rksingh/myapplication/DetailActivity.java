@@ -43,7 +43,7 @@ public class DetailActivity extends AppCompatActivity {
             tvPrice.setText(String.valueOf(price));
             tvName.setText(name);
             tvDescription.setText(description);
-            btnOrder.setText("Update Now");
+
 
             btnOrder.setOnClickListener(new View.OnClickListener() {
                 @Override
